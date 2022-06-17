@@ -1,38 +1,170 @@
-.App {
+body{
+  background-color: #1E142D;
+  font-family: 'Arimo', sans-serif;;
+}
+/* Navbar */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-link{
+  color: #b0acbb;
+  font-size: 15px;
+  padding-right: 30px;
+}
+.title{
+  color: white;
+  padding-right: 60px;
+}
+.navbar-link:hover{
+  color:#5c378f;
+}
+.navbar-button{
+  background-color: white;
+  border-radius: 100px;
+  padding: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* Navbar */
+
+/* Child Navbar */
+.c_navbar{
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.c_nav{
+  border: 1px solid #43325a;
+  padding: 15px;
+  border-radius: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.c-navbar-link{
   color: white;
+  font-size: 15px;
+  margin-right: 20px;
+  padding: 14px;
+}
+.c-navbar-link:hover{
+  background-color: #BE8DFE;
+  color: #7342b4;
+  border-radius: 100px;
 }
 
-.App-link {
-  color: #61dafb;
+.c_title{
+  color: white;
+  font-size: 35px;
+  font-weight: 800;
+  padding-right: 60px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Main */
+.main-button{
+  background-color: white;
+  border-radius: 100px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
+.main-first{
+  background-color: #1A1128;
+}
+
+.main-first-text{
+  color: #766E82;
+  font-size: 13px;
+}
+
+.main-second{
+  background-color: #1A1128;
+  border-color: #241A36;
+}
+.main-border{
+  border-color: #241A36;
+}
+.add{
+  color: #04E2D7;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+/* Card */
+
+.card-bottom{
+  display: flex;
+  justify-content: space-around;
+  border-color:#241A36;
+  color: white;
+  font-size: 14px;
+}
+
+.unstake{
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+
+}
+.collect{
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  border-bottom-right-radius: 10px;
+  background-color: #162739;
+  color: #2fdada;
+}
+.collect:hover{
+  background-color: #162739;
+  color: #2fdada;
+}
+.unstake:hover{
+  background-color: #162739;
+  color: #2fdada;
+}
+.card-text{
+  color: #766E82;
+  font-size: 12px;
+}
+.card-text1{
+  font-size: 12px;
+}
+.line{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width:100%;
+  height:3px;
+  background: linear-gradient(to right, white 90%, #74707C 10%);
+  border-radius: 100px;
+  border: none;
+
+}
+.octagon {
+  clip-path: polygon(9% 0, 92% 0, 100% 9%, 100% 92%, 92% 100%, 9% 100%, 0 92%, 0 9%);
+  background-color: #201631;
+  margin-bottom: 20px;
+  border: 2px solid transparent;
+} 
+.octagon:hover{
+  border: 2px solid #A479DC;
+}
+/* Card */
+
+/* Footer */
+
+.footer-link{
+  color: #b0acbb;
+  font-size: 13px;
+  padding-right: 10px;
+}
+.copy{
+  color: #b0acbb;
+  font-size: 13px;
+}
+
+
+
+
